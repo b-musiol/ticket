@@ -4,6 +4,8 @@ project(ticket)
 
 option(TICKET_BUILD_TESTS "Build tests for Ticket" ON)
 
+set(FETCHCONTENT_QUIET OFF)
+
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
